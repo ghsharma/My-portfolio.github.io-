@@ -13,6 +13,11 @@
 /* font-family: 'Amatic SC', cursive; */
 
 
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Amatic+SC:wght@700&family=Bungee+Spice&family=Caveat:wght@500&family=DynaPuff&family=Gloria+Hallelujah&family=Indie+Flower&family=Luckiest+Guy&family=Merriweather+Sans&family=Monoton&family=Pacifico&family=Permanent+Marker&family=Silkscreen&family=Source+Code+Pro:wght@300&display=swap');
+
+/* font-family: 'Silkscreen', cursive; */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -94,11 +99,15 @@ section .title::after{
 /* navbar styling */
 .navbar{
     position: fixed;
+    height: 80px;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    
+    border-bottom-left-radius:40% 40%;
+    border-bottom-right-radius:40% 40%;
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -112,6 +121,7 @@ section .title::after{
 .navbar .logo a{
     color: #fff;
     font-size: 35px;
+    margin-left: 30px;
     font-weight: 600;
 }
 .navbar .logo a span{
@@ -178,15 +188,18 @@ section .title::after{
 
 
 /* home section styling */
+
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/trek.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+
 }
 .home .max-width{
   width: 100%;
@@ -208,7 +221,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 .home .home-content a{
@@ -231,10 +244,32 @@ section .title::after{
     background: none;
 }
 
+
 /* about section styling */
+.custom-shape-divider-bottom-1666213676 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1666213676 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 121px;
+}
+
+.custom-shape-divider-bottom-1666213676 .shape-fill {
+    fill: #FFFFFF;
+}
+
 
 .about{
-    background: url("images/crushed.jpg");
+   margin-top: -100px;
+    background-image:linear-gradient(rgb(7rgb(87, 135, 207)6),lightblue);
 }
 
 .about .title::after{
@@ -253,11 +288,13 @@ section .title::after{
     box-shadow: #000000;
 }
 .about .about-content .right{
+    margin-top: -50px;
     width: 55%;
 }
 .about .about-content .right .text{
-    font-family: 'Rampart One', cursive; 
-    font-size: 25px;
+    /* font-family: 'Rampart One', cursive;  */
+    font-family: 'Silkscreen', cursive;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -286,12 +323,37 @@ section .title::after{
 }
 
 /* services section styling */
+
+.custom-shape-divider-top-1666219378 {
+    margin-top: -100px;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1666219378 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 101px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1666219378 .shape-fill {
+    fill: #FFFFFF;
+}
+
 .services, .teams{
+    margin-top: -50px;
     color:#fff;
-    background: #111;
+    background: rgb(0, 0, 0);
 }
 .services .title::before,
 .teams .title::before{
+
     background: #fff;
 }
 .services .title::after,
@@ -301,6 +363,7 @@ section .title::after{
     content: "what i provide";
 }
 .services .serv-content .card{
+    margin-top: -10px;
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -328,20 +391,34 @@ section .title::after{
     color: #fff;
 }
 .services .serv-content .card .text{
+    margin-top: 10px;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 10px 0;
-    font-family: 'Rampart One', cursive; 
+    /* font-family: 'Rampart One', cursive;  */
+    font-family: 'Silkscreen', cursive;
     margin-bottom: 40px;
 }
 
 /* skills section styling */
 /*===========================================================*/
 
-.skills{
 
-    margin-top: -40px;
-    margin-bottom: -80px;
+.custom-shape-divider-top-1666193828 {
+    margin-top: -100px;
+    position:relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    overflow:hidden;
+    line-height: 0;
+}
+
+
+
+.skills{
+    margin-top: -10px;
+    margin-bottom: -140px;
 }
 .skills .title::after{
     content: "what i know";
@@ -366,15 +443,51 @@ section .title::after{
     font-size: 19px;
     margin-top: 30px;
     text-align: justify;
-}
-.pen{
-    margin-top: -40px;
-    margin-left: -50px;
 
+}
+
+.baksa {
+    position: relative;
+    width: 100%;
+    margin-bottom: 80px;
+    
+  }
+
+.icons{
+    margin: 30px;
+    margin-inline: 40px;
+    box-shadow: #000000;
 }
 
 
 /* teams section styling */
+.custom-shape-divider-top-1666214835 {
+    margin-top: -100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1666214835 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 121px;
+}
+
+.custom-shape-divider-top-1666214835 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.clickitem{
+
+    color: #f1f1f1;
+}
+
 .teams .title::after{
     font-size: 30px;
     content: "things i built";
@@ -402,7 +515,8 @@ section .title::after{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-family: 'Rampart One', cursive; 
+    /* font-family: 'Rampart One', cursive;  */
+    font-family: 'Silkscreen', cursive;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -412,13 +526,14 @@ section .title::after{
  
     height: 160px;
     width: 160px;
-    object-fit:cover;
+    object-fit:fill;
     border-radius: 50%;
-    border: 5px solid crimson;
+    /* border: 5px solid crimson; */
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
-    border-color: rgb(0, 0, 0);
+    object-fit:fill;
+    /* border-color: rgb(0, 0, 0); */
 }
 .owl-dots{
     text-align: center;
@@ -445,13 +560,14 @@ section .title::after{
 /* contact section styling */
 
 .contact{
+
     background: url("images/crushed.jpg") no-repeat center;  
 }
 
 
 .contact .title{
     
-    margin-top: -30px;
+    margin-top: -0px;
 }
 
 .contact .title::after{
@@ -494,41 +610,6 @@ section .title::after{
     padding: 10px;
     color: #333;
 }
-.contact .right form .fields{
-    display: flex;
-}
-.contact .right form .field,
-.contact .right form .fields .field{
-    height: 45px;
-    width: 100%;
-    margin-bottom: 0px;
-}
-.contact .right form .textarea{
-    height: 80px;
-    width: 100%;
-}
-.contact .right form .name{
-    margin-right: 10px;
-}
-.contact .right form .field input,
-.contact .right form .textarea textarea{
-    height: 100%;
-    width: 100%;
-    border: 1px solid lightgrey;
-    border-radius: 6px;
-    padding: 0 15px;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
-}
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus{
-    border-color: #000000;
-}
-.contact .right form .textarea textarea{
-  padding-top: 100px;
-  resize: none;
-}
 
 .button-area a{
     margin: 60px;
@@ -556,11 +637,34 @@ section .title::after{
   background: none;
 }
 
+.custom-shape-divider-bottom-1666223871 {
+    margin-bottom: -60px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1666223871 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1666223871 .shape-fill {
+    fill: #000000;
+}
 
 
 
 /* footer section styling */
 footer{
+    margin-top: -40px;
     background: rgb(0, 0, 0);
     padding: 15px 23px;
     color: #fff;
