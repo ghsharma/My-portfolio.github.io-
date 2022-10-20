@@ -246,27 +246,6 @@ section .title::after{
 
 
 /* about section styling */
-.custom-shape-divider-bottom-1666213676 {
-    position: absolute;
-    margin-bottom: -100px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1666213676 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 121px;
-}
-
-.custom-shape-divider-bottom-1666213676 .shape-fill {
-    fill: #FFFFFF;
-}
-
 
 .about{
    margin-top: -50px;
