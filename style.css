@@ -240,7 +240,7 @@ section .title::after{
     font-family: 'Amatic SC', cursive;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: rgb(225, 225, 225);
     background: none;
 }
 
@@ -268,7 +268,7 @@ section .title::after{
 
 
 .about{
-   margin-top: -100px;
+   margin-top: -150px;
     background-image:linear-gradient(rgb(7rgb(87, 135, 207)6),lightblue);
 }
 
@@ -277,6 +277,7 @@ section .title::after{
     font-size: 30px;
 }
 .about .about-content .left{
+    margin-top: -20px;
     width: 45%;
 }
 .about .about-content .left img{
@@ -347,7 +348,7 @@ section .title::after{
 }
 
 .services, .teams{
-    margin-top: -50px;
+    margin-top: -100px;
     color:#fff;
     background: rgb(0, 0, 0);
 }
@@ -414,11 +415,9 @@ section .title::after{
     line-height: 0;
 }
 
-
-
 .skills{
     margin-top: -10px;
-    margin-bottom: -140px;
+    margin-bottom: -170px;
 }
 .skills .title::after{
     content: "what i know";
@@ -447,6 +446,7 @@ section .title::after{
 }
 
 .baksa {
+    margin-top: -20px;
     position: relative;
     width: 100%;
     margin-bottom: 80px;
@@ -484,7 +484,6 @@ section .title::after{
 }
 
 .clickitem{
-
     color: #f1f1f1;
 }
 
@@ -560,7 +559,6 @@ section .title::after{
 /* contact section styling */
 
 .contact{
-
     background: url("images/crushed.jpg") no-repeat center;  
 }
 
@@ -600,7 +598,12 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
+    padding: 20px;
     color: crimson;
+}
+.contact .contact-content .row i:hover{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -683,11 +686,11 @@ footer{
 }
 
 .social i:hover{
-	color:#f7f7f7;
+	color:#e72c2c;
 }
 
 footer span a{
-    color: crimson;
+    color: rgb(211, 22, 22);
     text-decoration: none;
 }
 footer span a:hover{
