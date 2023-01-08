@@ -3,6 +3,3 @@ This is my portfolio website and it consists of my skills, the services i provid
 
 It is live at https://ghsharma.github.io/My-portfolio.github.io-/
 
-![My Image](https://github.com/ghsharma/My-portfolio.github.io/blob/main/images/myQR.png)
-
-
