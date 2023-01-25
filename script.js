@@ -72,6 +72,8 @@ $(document).ready(function(){
     });
 });
 
+// for the scrolling hero page of the website
+
 let stars = document.getElementById("stars");
 let moon = document.getElementById("moon");
 let mountains_back = document.getElementById("mountains_back");

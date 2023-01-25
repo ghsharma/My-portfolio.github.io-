@@ -127,6 +127,7 @@ section .title::after{
 }
 
 .navbar .menu li{
+
     list-style: none;
     display: inline-block;
 }
@@ -257,7 +258,7 @@ section .title::after{
     transition: all 0.3s ease;
     font-family: 'Amatic SC', cursive;
 }
-.home-section .home-content a :before{
+/* .home-section .home-content a :before{
     display: inline-block;
     text-align: center;
     background: crimson;
@@ -272,7 +273,7 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
     font-family: 'Amatic SC', cursive;
-}
+} */
 .home-section .home-content a:hover{
     color: rgb(225, 225, 225);
     background: none;
@@ -779,7 +780,7 @@ footer span a:hover{
         font-size: 35px;
     }
     .home .home-content a{
-        font-size: 23px;
+        font-size: 40px;
         padding: 10px 30px;
     }
     .max-width{
@@ -818,7 +819,7 @@ footer span a:hover{
         font-size: 32px;
     }
     .home .home-content a{
-        font-size: 20px;
+        font-size: 40px;
     }
     .services .serv-content .card{
         width: 100%;
