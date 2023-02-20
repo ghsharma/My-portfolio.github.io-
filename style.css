@@ -258,22 +258,7 @@ section .title::after{
     transition: all 0.3s ease;
     font-family: 'Amatic SC', cursive;
 }
-/* .home-section .home-content a :before{
-    display: inline-block;
-    text-align: center;
-    background: crimson;
-    color: #fff;
-    font-size: 35px;
-    padding: 12px 36px;
-    width: 250px;
-    height: 72px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-    font-family: 'Amatic SC', cursive;
-} */
+
 .home-section .home-content a:hover{
     color: rgb(225, 225, 225);
     background: none;
@@ -282,7 +267,6 @@ section .title::after{
 
 .home{
     display: flex;
-    /* background: url("images/trek.jpg") no-repeat center; */
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -489,7 +473,12 @@ section .title::after{
     margin: 30px;
     margin-inline: 40px;
     box-shadow: #000000;
+    transition: transform .2s;
 }
+
+  .icons:hover {
+    transform: scale(1.7);
+  }
 
 
 /* teams section styling */
