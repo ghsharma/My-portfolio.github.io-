@@ -230,6 +230,7 @@ section .title::after{
     font-size: 27px;
 }
 .home-section .home-content .text-2{
+    color:rgb(201, 201, 199);
     font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
@@ -633,6 +634,12 @@ section .title::after{
     
     padding: 10px;
     color: #333;
+}
+
+.icons2{
+    margin: 30px;
+    margin-inline: 40px;
+    box-shadow: #000000;
 }
 
 .button-area a{
