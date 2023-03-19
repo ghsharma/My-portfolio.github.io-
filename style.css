@@ -472,7 +472,7 @@ section .title::after{
 
 .icons{
     margin: 30px;
-    margin-inline: 40px;
+    margin-inline: 30px;
     box-shadow: #000000;
     transition: transform .2s;
 }
