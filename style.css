@@ -298,6 +298,7 @@ section .title::after{
 .about .about-content .left{
     margin-top: -20px;
     width: 45%;
+    margin-left: -2vw;
 }
 .about .about-content .left img{
     height: 450px;
