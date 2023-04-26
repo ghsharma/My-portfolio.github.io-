@@ -8,7 +8,6 @@ This is the repository for the source code of my personal portfolio website. The
 
 - [Installation](#installation)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
