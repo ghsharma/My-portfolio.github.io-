@@ -26,10 +26,6 @@ The website is organized into several sections, including a home section, about 
 
 I welcome contributions to this repository! If you find a bug or have an idea for a new feature, please submit an issue on GitHub. If you would like to contribute code, please fork the repository and submit a pull request with your changes. Please ensure that your code follows the project's coding standards and is well-documented.
 
-## License
-
-This project is licensed under the [insert license type] license. Please see the `LICENSE` file for more information.
-
 ## Glimpse
 
 ![ghsharma github io_My-portfolio github io-_(Nest Hub Max) (2)](https://user-images.githubusercontent.com/95496933/234502613-84064896-82a4-4b25-ba8f-ccfc45134962.png)
