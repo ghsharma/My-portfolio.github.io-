@@ -474,6 +474,7 @@ section .title::after{
 }
 
 .baksa {
+    margin-left: 5vw;
     margin-top: -20px;
     position: relative;
     width: 100%;
