@@ -234,6 +234,8 @@ section .title::after{
     font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 .home-section .home-content .text-3{
     font-size: 30px;
