@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Amatic+SC:wght@700&family=Caveat:wght@500&family=DynaPuff&family=Gloria+Hallelujah&family=Indie+Flower&family=Luckiest+Guy&family=Mali:wght@300&family=Merriweather+Sans&family=Monoton&family=Pacifico&family=Permanent+Marker&family=Rampart+One&family=Sacramento&family=Source+Code+Pro:wght@300&display=swap');
+
+
+/* font-family: 'Rampart One', cursive; .........double design...... */
+
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Caveat:wght@500&family=DynaPuff&family=Gloria+Hallelujah&family=Indie+Flower&family=Luckiest+Guy&family=Merriweather+Sans&family=Monoton&family=Pacifico&family=Permanent+Marker&family=Source+Code+Pro:wght@300&display=swap');
+
+/* font-family: 'Amatic SC', cursive; .......sketch......*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Amatic+SC:wght@700&family=Bungee+Spice&family=Caveat:wght@500&family=DynaPuff&family=Gloria+Hallelujah&family=Indie+Flower&family=Luckiest+Guy&family=Merriweather+Sans&family=Monoton&family=Pacifico&family=Permanent+Marker&family=Silkscreen&family=Source+Code+Pro:wght@300&display=swap');
+
+/* font-family: 'Silkscreen', cursive;  ..........gaming..........*/
+
+
+
+:root {
+
+    --color: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    /* font-family: "Red Hat Text", sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+
+    border-bottom-left-radius: 40% 40%;
+    border-bottom-right-radius: 40% 40%;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    margin-left: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar .logo a span {
+    color: crimson;
+    transition: all 0.3s ease;
+}
+
+
+.container {
+    /* text-align: center; */
+    color: var(--color);
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-image: url(https://img.freepik.com/free-vector/mountain-river-canyon-night_107791-2829.jpg?w=1380&t=st=1689280053~exp=1689280653~hmac=fc9dbb1ee8c36468912bfdb6f2724f330d57427d9aebeb9601c1de269f32faf9);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+}
+
+h1 {
+
+    margin-top: 40vh;
+    text-align: left;
+    color: rgb(234, 232, 232);
+    font-weight: 700;
+    font-size: 6rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.scrollbtn {
+    background: rgba(255, 255, 255, 0.65);
+    height: 2rem;
+    width: 7rem;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: .5rem;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid .1rem;
+    box-shadow: white 0px 0px 5px 5px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.1rem;
+    z-index: 2;
+}
+
+.scrollbtn:hover {
+    background-color: #ffffff56;
+    transition: .5s ease-in-out;
+    box-shadow: white 0px 0px 10px 10px;
+}
+
+.blank {
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-top: -3vh;
+    width: 100;
+    background-color: var(--color);
+}
+
+.blank_head {
+    /* justify-content: center; */
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 3rem;
+    padding: 30px;
+    margin: 0;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+}
+
+.blank_p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: lighter;
+    line-height: 2;
+    padding: 1rem;
+}
+
+.p_box {
+    border: white solid 2px;
+    border-radius: 20px;
+    background: rgb(48, 63, 199);
+    box-shadow: white 0px 0px 10px 0px;
+}
+
+
+.second {
+    background-image: url("images/skillserve.pages.dev_.png");
+    background-attachment: fixed;
+    height: 12vh;
+}
+
+h3 {
+    font-family: 'Rampart One', cursive;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 1em;
+}
+
+.card>a {
+    margin-bottom: 2em;
+}
+
+.item {
+    display: flex;
+    margin-left: 20px;
+    padding: .5rem;
+    max-width: 320px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    transition: .1s ease-in;
+    box-shadow: none;
+}
+
+.item:hover {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    -webkit-box-shadow: 0px 29px 38px 15px rgba(255, 255, 255, 0.223);
+    -moz-box-shadow: 0px 29px 38px 15px rgba(255, 255, 255, 0.28);
+    box-shadow: 0px 0px 38px 15px rgba(255, 255, 255, 0.293);
+
+}
+
+.button {
+
+    padding: 10px;
+    border-radius: 5px;
+    margin: 4px;
+    font-weight: 600;
+    color: rgb(251, 251, 251);
+    font-size: 1.3rem;
+    background: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button:hover {
+    border: #fff;
+    background-color: #c6c3c397;
+    color: black;
+}
+
+.img {
+    width: 105%;
+    height: 200px;
+    background-color: lightgrey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    /* border-radius: 0.3em; */
+}
+
+.img-first {
+    background-image: url("images/skillserve.pages.dev_.png");
+}
+
+.img-second {
+    background-image: url("images/spotify.png");
+}
+
+/* 
+.img-third {
+  background-image: url("/images/");
+} */
+
+.img-fourth {
+    background-image: url("images/weather.png");
+}
+
+.img-fifth {
+    background-image: url("images/keeper.png");
+}
+
+.img-sixth {
+    background-image: url("images/drum.png");
+}
+
+
+.second {
+    height: 100vh;
+    flex-direction: row;
+    gap: 1.6em;
+}
+
+
+
+.third {
+    background-image: url("images/library.png");
+    background-attachment: fixed;
+    height: 12vh;
+    height: 100vh;
+    flex-direction: row;
+    gap: 1.6em;
+}
+
+
+.fourth {
+    background-image: url("https://img.freepik.com/free-vector/cartoon-working-day-scene-illustration_52683-62609.jpg?w=996&t=st=1689280830~exp=1689281430~hmac=218c84c86675bfa7b5c2f45c22f07c202980b5cddb10afaf3898fc8d67844b8f");
+    background-attachment: fixed;
+    height: 12vh;
+    height: 100vh;
+    flex-direction: row;
+    gap: 1.6em;
+}
+
+
+footer {
+    margin-top: 40px;
+    margin-bottom: -50px;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+.social {
+    margin: 40px 40px;
+}
+
+.social i {
+    color: #ffffff;
+    font-size: 30px;
+    padding: 0px 10px;
+    transition: transform .5s ease-in-out;
+}
+
+.social i:hover {
+    color: #e72c2c;
+    transform: scale(1.7) rotate(360deg);
+}
+
+
+footer span a {
+    color: rgb(211, 22, 22);
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+.github {
+    color: crimson;
+}
+
+.github:hover {
+    color: rgb(65, 25, 209);
+
+}
+
+.languages {
+    font-size: 5rem;
+    color: crimson;
+}
+
+
+@media(max-width:650px) {
+
+    .navbar {
+        left: 0;
+        /* position: fixed; */
+        top: 0;
+
+    }
+
+    .container>h1 {
+        font-size: 4rem;
+    }
+
+    .blank_head {
+        font-size: 2rem;
+    }
+
+    .blank_p {
+        font-size: 1rem;
+    }
+
+    .languages {
+        font-size: 2.1rem;
+    }
+
+    .container {
+        justify-content: space-around;
+        height: 20vh;
+
+    }
+
+    .fourth {
+        display: table;
+        width: 100%;
+        /* margin-bottom: 2rem; */
+        line-height: 2rem;
+        justify-content: space-between;
+        display: ta;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .scrollbtn {
+        margin-top: 25vh;
+    }
+
+    .item {
+        margin: 2rem;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
