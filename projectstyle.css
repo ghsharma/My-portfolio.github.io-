@@ -27,6 +27,7 @@
 }
 
 body {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     justify-content: space-around;
@@ -55,6 +56,7 @@ body {
 }
 
 .navbar .logo a {
+    border: none;
     color: #fff;
     font-size: 35px;
     margin-left: 30px;
@@ -87,7 +89,7 @@ body {
 
 h1 {
 
-    margin-top: 40vh;
+    margin-top: 42vh;
     text-align: left;
     color: rgb(234, 232, 232);
     font-weight: 700;
@@ -96,45 +98,43 @@ h1 {
     -webkit-text-stroke-color: black;
 }
 
+.waves{
+    margin-bottom: -20vh;
+}
 
 .scrollbtn {
-    background: rgba(255, 255, 255, 0.65);
-    height: 2rem;
-    width: 7rem;
-    border-radius: 30px;
+    /* background: rgba(255, 255, 255, 0.65); */
+    /* border-radius: 30px; */
     text-align: center;
-    padding-top: .5rem;
-    color: rgb(0, 0, 0);
-    border: rgb(0, 0, 0) solid .1rem;
-    box-shadow: white 0px 0px 5px 5px;
+    padding-top: 1rem;
+    color: white;
+    border: none;
+    /* box-shadow: white 0px 0px 5px 5px; */
     text-decoration: none;
     font-weight: 900;
     font-size: 1.1rem;
     z-index: 2;
 }
 
-.scrollbtn:hover {
-    background-color: #ffffff56;
-    transition: .5s ease-in-out;
-    box-shadow: white 0px 0px 10px 10px;
-}
-
 .blank {
     padding: 50px;
     justify-content: center;
     text-align: center;
-    margin-top: -3vh;
+    /* margin-top: -20vh; */
     width: 100;
-    background-color: var(--color);
+    background-color: white;
+    color: black;
 }
 
 .blank_head {
     /* justify-content: center; */
+    margin-top: -30vh;
     font-family: 'Amatic SC', cursive;
     text-align: center;
     font-size: 3rem;
     padding: 30px;
     margin: 0;
+    color: black;
     -webkit-text-stroke-width: 0px;
     -webkit-text-stroke-color: black;
 }
@@ -142,16 +142,14 @@ h1 {
 .blank_p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: lighter;
     line-height: 2;
     padding: 1rem;
 }
 
-.p_box {
-    border: white solid 2px;
-    border-radius: 20px;
-    background: rgb(48, 63, 199);
+.p_box2{
+    color: white;
     box-shadow: white 0px 0px 10px 0px;
 }
 
@@ -279,6 +277,8 @@ h3 {
 
 
 footer {
+   margin-left: 0;
+    margin-right: 0;
     margin-top: 40px;
     margin-bottom: -50px;
     bottom: 0;
@@ -380,6 +380,11 @@ footer span a:hover {
         margin: 2rem;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
+    }
+
+    .waves{
+        height: inherit;
         width: 100%;
     }
 }
