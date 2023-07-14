@@ -70,6 +70,120 @@ body {
 }
 
 
+
+.home-section{
+    
+    background-color: #000000;
+    background-color: linear-gradient(to top, #1c0522, transparent);
+    margin-top: -100px;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.home-section :before{
+  content: "";
+  position: absolute;
+  bottom: 100;
+  left: 0;
+  height: 100px;
+  width: 100px;
+ 
+  /* z-index: 1000; */
+}
+
+.home-section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 10vh;
+  object-fit: cover;
+
+  /* pointer-events: none; */
+}
+
+.home-section img#moon {
+  mix-blend-mode: screen;
+}
+
+.home-section  img#mountains_front {
+  z-index: 70px;
+}
+
+.home-section .home-content .text-2{
+    color:rgb(201, 201, 199);
+    font-size: 8rem;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    /* margin-left: -3px; */
+      -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+}
+.home-section .home-content .text-3{
+    font-size: 30px;
+    margin: 5px 0;
+}
+.home-section .home-content .text-3 span{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.home-section .home-content a{
+ margin-top: 20vh;
+}
+
+.home-section .home-content a:hover{
+    color: rgb(225, 225, 225);
+    background: none;
+}
+
+
+.home-section .home-content{
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+    /* margin-left: 20rem; */
+}
+
+
+
+.home{
+    /* justify-content: center; */
+    /* text-align: center; */
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    min-height: 600px;
+    background-size: cover;
+    background-attachment:fixed;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 70px;
+
+ } 
+ 
+.home .max-width{
+  width: 100%;
+  /* display: flex; */
+}
+.home .max-width .row{
+  /* margin-right: 0; */
+}
+
+
+
+
+
+
+
+
+
 .container {
     /* text-align: center; */
     color: var(--color);
@@ -79,7 +193,7 @@ body {
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    background-image: url(https://img.freepik.com/free-vector/mountain-river-canyon-night_107791-2829.jpg?w=1380&t=st=1689280053~exp=1689280653~hmac=fc9dbb1ee8c36468912bfdb6f2724f330d57427d9aebeb9601c1de269f32faf9);
+    /* background-image: url(https://img.freepik.com/free-vector/mountain-river-canyon-night_107791-2829.jpg?w=1380&t=st=1689280053~exp=1689280653~hmac=fc9dbb1ee8c36468912bfdb6f2724f330d57427d9aebeb9601c1de269f32faf9); */
     background-size: cover;
     background-repeat: none;
     background-position: center;
@@ -112,8 +226,10 @@ h1 {
     /* box-shadow: white 0px 0px 5px 5px; */
     text-decoration: none;
     font-weight: 900;
-    font-size: 1.1rem;
+    font-size: 2rem;
     z-index: 2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .blank {
@@ -386,5 +502,19 @@ footer span a:hover {
     .waves{
         height: inherit;
         width: 100%;
+    }
+
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+    .home .home-content a{
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 930px;
     }
 }
