@@ -172,15 +172,6 @@ body {
   width: 100%;
   /* display: flex; */
 }
-.home .max-width .row{
-  /* margin-right: 0; */
-}
-
-
-
-
-
-
 
 
 
@@ -292,6 +283,7 @@ h3 {
     margin-left: 20px;
     padding: .5rem;
     max-width: 320px;
+    color:rgb(0, 0, 0);
     background-color: white;
     flex-direction: column;
     align-items: center;
@@ -301,13 +293,14 @@ h3 {
 }
 
 .item:hover {
-    background-color: rgb(34, 34, 34);
-    color: white;
+    /* background-color: rgb(34, 34, 34); */
+    /* color: white; */
     -webkit-box-shadow: 0px 29px 38px 15px rgba(255, 255, 255, 0.223);
     -moz-box-shadow: 0px 29px 38px 15px rgba(255, 255, 255, 0.28);
     box-shadow: 0px 0px 38px 15px rgba(255, 255, 255, 0.293);
 
 }
+
 
 .button {
 
@@ -485,7 +478,6 @@ footer span a:hover {
         display: ta;
         flex-direction: column;
         justify-content: center;
-
     }
 
     .scrollbtn {

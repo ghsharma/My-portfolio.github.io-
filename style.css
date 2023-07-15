@@ -230,8 +230,8 @@ section .title::after{
     font-size: 27px;
 }
 .home-section .home-content .text-2{
-    color:rgb(201, 201, 199);
-    font-size: 60px;
+    color:rgb(255, 255, 255);
+    font-size: 70px;
     font-weight: 600;
     margin-left: -3px;
       -webkit-text-stroke-width: 2px;
@@ -494,6 +494,123 @@ section .title::after{
   }
 
 /* teams section styling */
+
+.projectbox{
+    justify-content: center;
+    display: flex;
+    gap:1rem;
+}
+
+.adjustcerti{
+    display: flex;
+    gap:.5rem;
+}
+
+  /* for 1th cards */
+  .container1{
+    background-image: url("images/mern.png");
+    background-repeat: none;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;   
+    cursor: pointer;
+    
+
+  }
+  .container1:hover .overlay{
+
+    font-size: .5rem;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+/* for 2nd card */
+.container2{
+    background-image: url("images/ML.png");
+    background-repeat: none;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 1px auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .container2:hover .overlay{
+    font-size: .3rem;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* for 3rd card */
+  .container3{
+    background-image: url("images/cisco.png");
+    background-repeat: none;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    /* margin-left:-2px; */
+    margin: 1px auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .container3:hover .overlay{
+    font-size: .3rem;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+
+  /* for 4th card */
+  .container4{
+    background-image: url("images/projects.png");
+    background-repeat: none;
+    background-size: cover;
+    margin-top: 15px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .container4:hover .overlay{
+    font-size: .7rem;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+
+
+  .overlay{
+    position: absolute;
+    background-color: rgba(255,0,0,.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(1.3);
+    opacity: 0;
+    transition: transform .4s ease 0s;
+  }
+  
+  .overlay span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 5em;
+    color: #fff;
+    font-family: Sans-serif;
+  }
+
+
 .custom-shape-divider-top-1666214835 {
     margin-top: -100px;
     position: relative;
@@ -520,6 +637,14 @@ section .title::after{
     color: #f1f1f1;
 }
 
+.teams .title::after{
+    font-size: 2rem;
+    content: "& things i built";
+}
+
+/* 
+
+// anybody who still need my carousl section or want to copy it again help you with sharing it here happy copying.
 .teams .title::after{
     font-size: 30px;
     content: "things i built";
@@ -550,7 +675,7 @@ section .title::after{
 }
 .teams .carousel .card .text{
     /* font-family: 'Rampart One', cursive;  */
-    color: red;
+    /* color: red;
     font-family: 'Silkscreen', cursive;
     font-size: 25px;
     font-weight: 500;
@@ -559,22 +684,22 @@ section .title::after{
 }
 .teams .carousel .card:hover .text{
     /* font-family: 'Rampart One', cursive;  */
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255);
 }
 .teams .carousel .card img{
  
     height: 160px;
     width: 160px;
     object-fit:fill;
-    border-radius: 50%;
+    border-radius: 50%; */
     /* border: 5px solid crimson; */
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
-    object-fit:fill;
+    object-fit:fill; */
     /* border-color: rgb(0, 0, 0); */
-}
-.owl-dots{
+/* } */
+/* .owl-dots{
     text-align: center;
     margin-top: 20px;
 }
@@ -593,8 +718,8 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
-}
+    background: crimson!important; */
+/* }  */
 
 /* contact section styling */
 
@@ -760,6 +885,25 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+
+    .container4{
+        /* align-items: center; */
+        justify-content: center;
+        height: 320px;
+        margin-left: 25px;
+        width: 320px;
+        /* margin-right: 10px; */
+    }
+    /* .projectbox{
+        /* position: relative; */
+        /* padding: 20px auto; */
+        /* flex-direction: column; */
+    /* } */ */
+    .project-right{
+        /* position: absolute; */
+        flex-direction: column;
+    }
+
     .menu-btn{
         display: block;
         z-index: 999;
@@ -825,6 +969,7 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
+    
     .max-width{
         padding: 0 23px;
     }
@@ -840,6 +985,31 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+
+    
+    .container1{
+        width: 330px;
+        justify-content: space-around;
+        /* margin-right: 20px; */
+    }
+    .container4{
+        /* align-items: center; */
+        justify-content: center;
+        height: 320px;
+        margin-left: 25px;
+        width: 320px;
+        /* margin-right: 10px; */
+    }
+    .projectbox{
+        /* position: relative; */
+        padding: 20px auto;
+        flex-direction: column;
+    }
+    .project-right{
+        /* position: absolute; */
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -871,4 +1041,37 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+
+
 }
+
+
+
+
+/* Media Queries */
+
+/* Adjust container widths and heights for smaller screens */
+@media screen and (max-width: 768px) {
+    .container1 {
+      width: 300px;
+      height: 150px;
+    }
+  
+    .container2,
+    .container3 {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .container4 {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  /* Adjust font size for smaller screens */
+  @media screen and (max-width: 480px) {
+    .overlay span {
+      font-size: 3em;
+    }
+  }
