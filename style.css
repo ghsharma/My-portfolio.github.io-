@@ -19,6 +19,7 @@
 
 
 *{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -480,14 +481,14 @@ section .title::after{
     position: relative;
     width: 100%;
     margin-bottom: 80px;
-    
   }
 
   .icons {
     margin: 30px;
     margin-inline: 30px;
-    box-shadow: #000000;
-    transition: transform .5s ease-in-out;
+    transition: transform .6s ease-in;
+    scroll-behavior: smooth;
+
   }
   .icons:hover {
     transform:  scale(1.7) rotate(360deg);
