@@ -118,7 +118,7 @@ body {
 }
 
 .home-section .home-content .text-2{
-    color:rgb(201, 201, 199);
+    color:rgb(255, 255, 255);
     font-size: 8rem;
     justify-content: center;
     text-align: center;
@@ -267,6 +267,13 @@ h1 {
     height: 12vh;
 }
 
+.fifth{
+    background-image: url("images/skillserve.pages.dev_.png");
+    background-attachment: fixed;
+    height: 12vh;
+}
+
+
 h3 {
     font-family: 'Rampart One', cursive;
     font-weight: 700;
@@ -356,6 +363,11 @@ h3 {
     background-image: url("images/drum.png");
 }
 
+.img-seventh {
+    background-image: url("images/parapop\ card.png");
+}
+
+
 
 .second {
     height: 100vh;
@@ -363,9 +375,16 @@ h3 {
     gap: 1.6em;
 }
 
+.fifth{
+    height: 100vh;
+    flex-direction: row;
+    gap: 1.6em;
+    background-image: url("images/parapopback.png");
+}
 
 
 .third {
+
     background-image: url("images/library.png");
     background-attachment: fixed;
     height: 12vh;
