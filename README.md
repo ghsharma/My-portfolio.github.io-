@@ -1,6 +1,6 @@
 
 
-# Portfolio Website Repository
+# Portfolio Website
 
 This is the repository for the source code of my personal portfolio website. The website is designed to showcase my work and provide information about my skills and experience. It is built using [HTML, CSS and JAVASCRIPT] and hosted on [https://ghsharma.github.io/My-portfolio.github.io-/].
 
@@ -27,6 +27,6 @@ I welcome contributions to this repository! If you find a bug or have an idea fo
 
 ## Glimpse
 
-![ghsharma github io_My-portfolio github io-_(Nest Hub Max) (3)](https://github.com/ghsharma/My-portfolio.github.io-/assets/95496933/d5862a23-3137-45ad-ac76-754ff2cf7c50)
+![ghsharma github io_My-portfolio github io-_(Nest Hub)](https://github.com/ghsharma/My-portfolio.github.io-/assets/95496933/000c05fd-5b73-4e9d-a770-4f13374b971f)
 
 
