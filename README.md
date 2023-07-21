@@ -27,6 +27,6 @@ I welcome contributions to this repository! If you find a bug or have an idea fo
 
 ## Glimpse
 
-![ghsharma github io_My-portfolio github io-_(Nest Hub)](https://github.com/ghsharma/My-portfolio.github.io-/assets/95496933/000c05fd-5b73-4e9d-a770-4f13374b971f)
+![ghsharma github io_My-portfolio github io-_(Nest Hub Max) (4)](https://github.com/ghsharma/My-portfolio.github.io-/assets/95496933/89365cee-c8b5-4919-9ed5-8af7e0733de0)
 
 
