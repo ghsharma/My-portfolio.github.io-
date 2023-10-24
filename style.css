@@ -105,7 +105,7 @@ section .title::after {
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #dc143c;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -334,14 +334,13 @@ section .title::after {
 
 .about .about-content .left img {
 
-    height: 450px;
+    height: 490px;
     width: 450px;
     object-fit: cover;
     border: 0px solid rgb(0, 0, 0);
     border-radius: 240px;
     box-shadow: #000000;
-
-    box-shadow: 0px 20px 30px rgb(0, 0, 0);
+    /* box-shadow: 0px 20px 30px rgb(0, 0, 0); */
     transition: transform .5s ease-in;
 }
 
