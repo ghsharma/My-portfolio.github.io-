@@ -341,11 +341,11 @@ section .title::after {
     border-radius: 240px;
     box-shadow: #000000;
     /* box-shadow: 0px 20px 30px rgb(0, 0, 0); */
-    transition: transform .5s ease-in;
+    transition: transform .1s ease-in;
 }
 
 .about .about-content .left img:hover {
-    transform: scale(1.01) rotate(0deg);
+    transform: scale(1.01) rotate(-3deg);
 }
 
 .about .about-content .right {
